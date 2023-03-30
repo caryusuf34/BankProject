@@ -19,7 +19,9 @@ public class UserMain {
                     "\n -Yeni sirket ekleme (2)" +
                     "\n -Mevcut sirketi ozel numarasına gore silme (3)");
 
-            int input = Integer.valueOf(scanner.nextLine());
+            //int input = Integer.valueOf(scanner.nextLine());
+           // Scanner input=new Scanner(System.in);
+            int input=scanner.nextInt();
             System.out.println();
 
             switch (input) {
